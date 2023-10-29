@@ -1,0 +1,89 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; 
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.custom-hr {
+    border: none; /* Remove the default border */
+    border-top: 1px solid #333; /* Add a 2-pixel solid line with a color of #333 */
+    margin: 10px 0; /* Add some vertical spacing above and below the line */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #222; 
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+section h2 {
+    color: #333; 
+}
+
+section p {
+    color: #555; 
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0.5rem;
+    }
+}
